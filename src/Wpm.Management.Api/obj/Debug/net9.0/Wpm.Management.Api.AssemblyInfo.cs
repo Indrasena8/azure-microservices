@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Wpm.Management.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5eb4e58259733cb235a6a8ef12958c2b285cafb3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0aefdffaf1f850969d056f771f8d6f0196c43e7d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Wpm.Management.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Wpm.Management.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
