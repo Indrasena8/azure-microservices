@@ -41,9 +41,4 @@ jobs:
           containerAppName: wpm-management
           resourceGroup: CNCF
           imageToDeploy: ${{ secrets.ACR_LOGIN_SERVER }}/wpm-management-api:${{ env.DATE_TIME }}.${{ github.run_number }}
-<<<<<<< HEAD
-
-          
-=======
           environmentVariables: Logging__LogLevel__Microsoft.EntityFrameworkCore=Debug
->>>>>>> 1c5b1875b60605d212c80ad1ddd81095ff147334
