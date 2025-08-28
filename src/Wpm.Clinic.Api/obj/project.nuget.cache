@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Qyx3v/pBFnM=",
+  "dgSpecHash": "NUs0w1GHnog=",
   "success": true,
-  "projectFilePath": "/Users/indrasena/Indrasena/Courses/Csharp_Dotnet/microservices/src/Wpm.Clinic/Wpm.Clinic.csproj",
+  "projectFilePath": "/Users/indrasena/Indrasena/Courses/Csharp_Dotnet/microservices/src/Wpm.Clinic.Api/Wpm.Clinic.Api.csproj",
   "expectedPackageFiles": [
     "/Users/indrasena/.nuget/packages/microsoft.aspnetcore.openapi/9.0.7/microsoft.aspnetcore.openapi.9.0.7.nupkg.sha512",
     "/Users/indrasena/.nuget/packages/microsoft.entityframeworkcore/9.0.8/microsoft.entityframeworkcore.9.0.8.nupkg.sha512",

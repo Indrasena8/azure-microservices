@@ -5,6 +5,7 @@ using Wpm.Clinic.ExternalServices;
 using Microsoft.Extensions.Http.Resilience;
 using Polly; // This might be needed depending on your project configuration
 using Polly.Retry;
+using Microsoft.Extensions.Caching.Memory;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,6 +17,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<ManagementService>();
 builder.Services.AddScoped<ClinicApplicationService>();
+builder.Services.AddMemoryCache();
 builder.Services.AddDbContext<ClinicDbContext>(options =>
 {
     options.UseInMemoryDatabase("WpmClinic");
