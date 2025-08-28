@@ -15,7 +15,6 @@ builder.Services.AddDbContext<ManagementDbContext>(options =>
 });
 
 var app = builder.Build();
-
 app.EnsureDbIsCreated();
 
 // Configure the HTTP request pipeline.
